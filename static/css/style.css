@@ -1,0 +1,60 @@
+/* Index Page CSS */
+
+.intro{
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#title{
+    color: #6892ff;
+}
+
+.form{
+    margin: 40px 500px;
+}
+
+.form input{
+    width: 350px;
+    height: 50px;
+}
+
+.form button{
+    width: 100px;
+    height: 30px;
+    margin-left: 130px;
+    background-color: #22aae9;
+} 
+
+#image{
+    height: 400px;
+    width: 700px;
+    margin-left: 300px;
+    margin-top: -50px;
+} 
+
+/* Success Page CSS begins */
+
+.SuccessContainer{
+    background-color: #6892ff;
+}
+
+.SuccessContainer img{
+    margin-top: -70px;
+    margin-left: 430px;
+}
+
+.contents{
+    margin-top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+.error_message{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+}
