@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Average Height Calculator</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    </head>
+
+    <body id="IndexPageBody">
+        <h1 class="intro" id="title">Collecting heights</h1>
+        <p class="intro">Please fill the entries to get population statistics on height</p>
+        <div class="error_message">
+            {{text | safe}}
+        </div>
+        <!--Form-->
+        <div class="form">
+            <form action="/success" method="POST">
+                <input title="Your E-mail is safe with us" type="email" name="email" placeholder="Enter your email address" required><br><br>
+                <input type="number" name="height" min=50 max=300 placeholder="Enter your height in cm" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <img id="image" src="https://media-s3-us-east-1.ceros.com/business-insider/images/2018/02/16/461fe1ccfd031221e5627c4fdb991987/us-presidents-heights.gif?imageOpt=1" alt="US presidents height">
+    </body>
+</html>
